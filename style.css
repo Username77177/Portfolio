@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --gr1: rgba(30, 30, 36, 1);
+    --gr2: rgba(251, 159, 137, 1);
+    --bc: rgba(91, 91, 91, 1);
+    --fc: rgba(239, 239, 235, 1);
+    --bc-alt: rgba(85, 91, 110, 1);
+    color: --fc;
+}
+
+.block {
+    width: 1vh;
+    position: relative;
+}
+
+#first_block {
+    background: linear-gradient(45deg, --gr1, --gr2);
+}
